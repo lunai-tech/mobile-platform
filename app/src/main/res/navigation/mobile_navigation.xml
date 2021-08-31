@@ -13,19 +13,19 @@
 
     <fragment
         android:id="@+id/navigation_experts"
-        android:name="com.example.mobile_platform.ui.dashboard.DashboardFragment"
+        android:name="com.example.mobile_platform.ui.experts.ExpertsFragment"
         android:label="@string/title_experts"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_experts" />
 
     <fragment
         android:id="@+id/navigation_trilha"
-        android:name="com.example.mobile_platform.ui.notifications.NotificationsFragment"
+        android:name="com.example.mobile_platform.ui.trilha.TrilhaFragment"
         android:label="@string/title_trilha"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_trilha" />
 
     <fragment
         android:id="@+id/navigation_meu_negocio"
-        android:name="com.example.mobile_platform.ui.notifications.NotificationsFragment"
+        android:name="com.example.mobile_platform.ui.trilha.TrilhaFragment"
         android:label="@string/title_meu_negocio"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_trilha" />
 </navigation>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.experts.ExpertsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Tráfego"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/txv_partner"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="21px"
+        android:text="São responsáveis por trazer pessoas para o seu negócio online através de anúncios que você vê\n
+no Youtube, Google, Facebook e vários outros sites."
+        app:layout_constraintStart_toStartOf="@+id/txv_partner"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/txv_partner"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:background="@drawable/home_box"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="5dp">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/txv_partner_2"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:background="@drawable/home_box"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toEndOf="@id/txv_partner"
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="5dp">
+    </ImageButton>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

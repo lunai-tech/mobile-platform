@@ -1,14 +1,13 @@
-package com.example.mobile_platform
+package com.lunai.mobile_platform
 
 import android.os.Bundle
-import android.view.Window
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.mobile_platform.databinding.ActivityMainBinding
+import com.lunai.mobile_platform.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

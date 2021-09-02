@@ -5,8 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentTransaction
 import androidx.lifecycle.ViewModelProvider
+import com.lunai.mobile_platform.R
 import com.lunai.mobile_platform.databinding.FragmentHomeBinding
+import com.lunai.mobile_platform.ui.experts.ExpertsFragment
 
 class HomeFragment : Fragment() {
 
@@ -26,6 +29,13 @@ class HomeFragment : Fragment() {
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
+
+//        _binding!!.txvExperts.setOnClickListener{
+//            val expertsFragment = ExpertsFragment()
+//            val transaction: FragmentTransaction = childFragmentManager.beginTransaction()
+//            transaction.replace(R.id.container, expertsFragment)
+//            transaction.commit()
+//        }
 
         return root
     }

@@ -50,25 +50,136 @@
                 android:paddingBottom="5dp"
                 android:paddingTop="5dp">
 
-                <ImageButton
-                    android:id="@+id/txv_partner"
-                    android:layout_width="140dp"
-                    android:layout_height="170dp"
-                    android:background="@drawable/home_box"
-                    android:elevation="5dp"
-                    android:layout_marginStart="15dp"
-                    app:layout_constraintStart_toStartOf="@id/main"
-                    app:layout_constraintTop_toTopOf="@id/main"></ImageButton>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
 
-                <ImageButton
-                    android:id="@+id/txv_partner_2"
-                    android:layout_width="140dp"
-                    android:layout_height="170dp"
-                    android:layout_marginStart="15dp"
-                    android:background="@drawable/home_box"
-                    android:elevation="5dp"
-                    app:layout_constraintStart_toEndOf="@id/txv_partner"
-                    app:layout_constraintTop_toTopOf="parent"></ImageButton>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:translationZ="90dp"
+                        android:layout_centerHorizontal="true">
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/iv_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp">
+
+                    </ImageView>
+
+                    <RatingBar
+                        android:id="@+id/rating"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
+
+                    <ImageButton
+                        android:id="@+id/txv_partner"
+                        android:layout_width="140dp"
+                        android:layout_height="170dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/home_box"
+                        android:elevation="5dp">
+
+                    </ImageButton>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_2"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
+
+                    <ImageButton
+                        android:id="@+id/txv_partner_2"
+                        android:layout_width="140dp"
+                        android:layout_height="170dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/home_box"
+                        android:elevation="5dp"></ImageButton>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_3"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
 
                 <ImageButton
                     android:id="@+id/txv_partner_3"
@@ -76,9 +187,44 @@
                     android:layout_height="170dp"
                     android:layout_marginStart="15dp"
                     android:background="@drawable/home_box"
-                    android:elevation="5dp"
-                    app:layout_constraintStart_toEndOf="@id/txv_partner_2"
-                    app:layout_constraintTop_toTopOf="parent"></ImageButton>
+                    android:elevation="5dp"></ImageButton>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_4"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
 
                 <ImageButton
                     android:id="@+id/txv_partner_4"
@@ -86,9 +232,9 @@
                     android:layout_height="170dp"
                     android:layout_marginStart="30dp"
                     android:background="@drawable/home_box"
-                    android:elevation="5dp"
-                    app:layout_constraintStart_toEndOf="@id/txv_partner_3"
-                    app:layout_constraintTop_toTopOf="parent"></ImageButton>
+                    android:elevation="5dp"></ImageButton>
+
+                </RelativeLayout>
 
             </LinearLayout>
 
@@ -130,15 +276,85 @@
                 android:paddingBottom="5dp"
                 android:paddingTop="5dp">
 
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_5"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
+
                 <ImageButton
                     android:id="@+id/txv_partner_5"
                     android:layout_width="140dp"
                     android:layout_height="170dp"
                     android:background="@drawable/home_box"
                     android:elevation="5dp"
-                    android:layout_marginStart="15dp"
-                    app:layout_constraintStart_toStartOf="@id/main"
-                    app:layout_constraintTop_toTopOf="@id/main"></ImageButton>
+                    android:layout_marginStart="15dp"></ImageButton>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_6"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
 
                 <ImageButton
                     android:id="@+id/txv_partner_6"
@@ -146,9 +362,45 @@
                     android:layout_height="170dp"
                     android:layout_marginStart="15dp"
                     android:background="@drawable/home_box"
-                    android:elevation="5dp"
-                    app:layout_constraintStart_toEndOf="@id/txv_partner"
-                    app:layout_constraintTop_toTopOf="parent"></ImageButton>
+                    android:elevation="5dp">
+                </ImageButton>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_7"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
 
                 <ImageButton
                     android:id="@+id/txv_partner_7"
@@ -156,9 +408,44 @@
                     android:layout_height="170dp"
                     android:layout_marginStart="15dp"
                     android:background="@drawable/home_box"
-                    android:elevation="5dp"
-                    app:layout_constraintStart_toEndOf="@id/txv_partner_2"
-                    app:layout_constraintTop_toTopOf="parent"></ImageButton>
+                    android:elevation="5dp"></ImageButton>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_8"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
 
                 <ImageButton
                     android:id="@+id/txv_partner_8"
@@ -166,9 +453,9 @@
                     android:layout_height="170dp"
                     android:layout_marginStart="30dp"
                     android:background="@drawable/home_box"
-                    android:elevation="5dp"
-                    app:layout_constraintStart_toEndOf="@id/txv_partner_3"
-                    app:layout_constraintTop_toTopOf="parent"></ImageButton>
+                    android:elevation="5dp"></ImageButton>
+
+                </RelativeLayout>
 
             </LinearLayout>
 
@@ -210,15 +497,86 @@
                 android:paddingBottom="5dp"
                 android:paddingTop="5dp">
 
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_9"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
+
                 <ImageButton
                     android:id="@+id/txv_partner_9"
                     android:layout_width="140dp"
                     android:layout_height="170dp"
                     android:background="@drawable/home_box"
                     android:elevation="5dp"
-                    android:layout_marginStart="15dp"
-                    app:layout_constraintStart_toStartOf="@id/main"
-                    app:layout_constraintTop_toTopOf="@id/main"></ImageButton>
+                    android:layout_marginStart="15dp"></ImageButton>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_10"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
 
                 <ImageButton
                     android:id="@+id/txv_partner_10"
@@ -226,9 +584,44 @@
                     android:layout_height="170dp"
                     android:layout_marginStart="15dp"
                     android:background="@drawable/home_box"
-                    android:elevation="5dp"
-                    app:layout_constraintStart_toEndOf="@id/txv_partner"
-                    app:layout_constraintTop_toTopOf="parent"></ImageButton>
+                    android:elevation="5dp"></ImageButton>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_11"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
 
                 <ImageButton
                     android:id="@+id/txv_partner_11"
@@ -236,9 +629,45 @@
                     android:layout_height="170dp"
                     android:layout_marginStart="15dp"
                     android:background="@drawable/home_box"
-                    android:elevation="5dp"
-                    app:layout_constraintStart_toEndOf="@id/txv_partner_2"
-                    app:layout_constraintTop_toTopOf="parent"></ImageButton>
+                    android:elevation="5dp"></ImageButton>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/experts_profile_circle"
+                        android:translationZ="90dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_expert_name"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_12"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
 
                 <ImageButton
                     android:id="@+id/txv_partner_12"
@@ -246,9 +675,9 @@
                     android:layout_height="170dp"
                     android:layout_marginStart="30dp"
                     android:background="@drawable/home_box"
-                    android:elevation="5dp"
-                    app:layout_constraintStart_toEndOf="@id/txv_partner_3"
-                    app:layout_constraintTop_toTopOf="parent"></ImageButton>
+                    android:elevation="5dp"></ImageButton>
+
+                </RelativeLayout>
 
             </LinearLayout>
 
@@ -290,15 +719,85 @@
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp">
 
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/experts_profile_circle"
+                            android:translationZ="90dp"
+                            android:layout_marginStart="45dp"
+                            android:layout_marginTop="10dp"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_expert_name"
+                            android:textSize="32px"
+                            android:textStyle="bold"
+                            android:layout_marginTop="100dp"
+                            android:layout_marginStart="40dp"
+                            android:translationZ="90dp">
+                        </TextView>
+
+                        <RatingBar
+                            android:id="@+id/rating_13"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="45dp"
+                            android:layout_marginTop="140dp"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:stepSize="0.1"
+                            android:translationZ="90dp" />
+
                     <ImageButton
                         android:id="@+id/txv_partner_13"
                         android:layout_width="140dp"
                         android:layout_height="170dp"
                         android:background="@drawable/home_box"
                         android:elevation="5dp"
-                        android:layout_marginStart="15dp"
-                        app:layout_constraintStart_toStartOf="@id/main"
-                        app:layout_constraintTop_toTopOf="@id/main"></ImageButton>
+                        android:layout_marginStart="15dp"></ImageButton>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/experts_profile_circle"
+                            android:translationZ="90dp"
+                            android:layout_marginStart="45dp"
+                            android:layout_marginTop="10dp"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_expert_name"
+                            android:textSize="32px"
+                            android:textStyle="bold"
+                            android:layout_marginTop="100dp"
+                            android:layout_marginStart="40dp"
+                            android:translationZ="90dp">
+                        </TextView>
+
+                        <RatingBar
+                            android:id="@+id/rating_14"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="45dp"
+                            android:layout_marginTop="140dp"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:stepSize="0.1"
+                            android:translationZ="90dp" />
 
                     <ImageButton
                         android:id="@+id/txv_partner_14"
@@ -306,9 +805,44 @@
                         android:layout_height="170dp"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/home_box"
-                        android:elevation="5dp"
-                        app:layout_constraintStart_toEndOf="@id/txv_partner"
-                        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+                        android:elevation="5dp"></ImageButton>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/experts_profile_circle"
+                            android:translationZ="90dp"
+                            android:layout_marginStart="45dp"
+                            android:layout_marginTop="10dp"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_expert_name"
+                            android:textSize="32px"
+                            android:textStyle="bold"
+                            android:layout_marginTop="100dp"
+                            android:layout_marginStart="40dp"
+                            android:translationZ="90dp">
+                        </TextView>
+
+                        <RatingBar
+                            android:id="@+id/rating_15"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="45dp"
+                            android:layout_marginTop="140dp"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:stepSize="0.1"
+                            android:translationZ="90dp" />
 
                     <ImageButton
                         android:id="@+id/txv_partner_15"
@@ -316,9 +850,44 @@
                         android:layout_height="170dp"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/home_box"
-                        android:elevation="5dp"
-                        app:layout_constraintStart_toEndOf="@id/txv_partner_2"
-                        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+                        android:elevation="5dp"></ImageButton>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/experts_profile_circle"
+                            android:translationZ="90dp"
+                            android:layout_marginStart="45dp"
+                            android:layout_marginTop="10dp"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_expert_name"
+                            android:textSize="32px"
+                            android:textStyle="bold"
+                            android:layout_marginTop="100dp"
+                            android:layout_marginStart="40dp"
+                            android:translationZ="90dp">
+                        </TextView>
+
+                        <RatingBar
+                            android:id="@+id/rating_16"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="45dp"
+                            android:layout_marginTop="140dp"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:stepSize="0.1"
+                            android:translationZ="90dp" />
 
                     <ImageButton
                         android:id="@+id/txv_partner_16"
@@ -326,9 +895,9 @@
                         android:layout_height="170dp"
                         android:layout_marginStart="30dp"
                         android:background="@drawable/home_box"
-                        android:elevation="5dp"
-                        app:layout_constraintStart_toEndOf="@id/txv_partner_3"
-                        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+                        android:elevation="5dp"></ImageButton>
+
+                    </RelativeLayout>
 
                 </LinearLayout>
 

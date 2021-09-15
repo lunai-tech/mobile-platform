@@ -8,8 +8,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.lunai.mobile_platform.databinding.ActivityMainBinding
-import com.lunai.mobile_platform.ui.experts.ExpertsFragment
-import com.lunai.mobile_platform.ui.home.HomeFragment
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,8 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        val expertsFragment = ExpertsFragment()
 
         val navView: BottomNavigationView = binding.navView
 

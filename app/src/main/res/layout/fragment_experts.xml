@@ -14,7 +14,7 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="250dp"
             android:orientation="vertical">
 
         <TextView
@@ -68,11 +68,11 @@
 
                     <ImageView
                         android:id="@+id/iv_profile"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="45dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/experts_profile_circle"
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/_593703294907"
                         android:translationZ="90dp">
 
                     </ImageView>
@@ -146,12 +146,13 @@
                     android:layout_height="177dp">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/experts_profile_circle"
-                        android:translationZ="90dp"
-                        android:layout_marginStart="45dp"
-                        android:layout_marginTop="10dp"></ImageView>
+                        android:id="@+id/iv_profile_2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/_8270556"
+                        android:translationZ="90dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -232,12 +233,13 @@
 
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/experts_profile_circle"
-                        android:translationZ="90dp"
-                        android:layout_marginStart="45dp"
-                        android:layout_marginTop="10dp"></ImageView>
+                        android:id="@+id/iv_profile_3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/_593703294907"
+                        android:translationZ="90dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -317,12 +319,13 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/experts_profile_circle"
-                            android:translationZ="90dp"
-                            android:layout_marginStart="45dp"
-                            android:layout_marginTop="10dp"></ImageView>
+                            android:id="@+id/iv_profile_4"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="50dp"
+                            android:src="@drawable/_1354681"
+                            android:translationZ="90dp"/>
 
                         <TextView
                             android:layout_width="wrap_content"

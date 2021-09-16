@@ -42,7 +42,6 @@ class ExpertsFragment : Fragment() {
             showPopup.show(parentFragmentManager, "popupWindow")
         }
 
-
         txv_partner_5.setOnClickListener {
             val layout = R.layout.experts_popup2
             val showPopup = CustomDialogFragment(layout)

@@ -7,16 +7,18 @@ import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import com.lunai.mobile_platform.R
 
-class CustomDialogFragment: DialogFragment() {
+class CustomDialogFragment(expertLayout: Int) : DialogFragment() {
+
+    private val expertLayout = expertLayout
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View? {
-        var rootView: View = inflater.inflate(R.layout.experts_popup, container, false)
 
-        return rootView
+        return inflater.inflate(expertLayout, container, false)
     }
 
 }
+

@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cesar Rodrigues"
+            android:text="Luanna Rossi Fonseca"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:layout_gravity="center_horizontal"
@@ -28,14 +28,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gestor de tráfego"
+            android:text="Gestora de Mídias Sociais"
             android:textColor="@color/black"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Google Ads, Facebook Ads, Instagram Ads, Adsense"
+            android:text="Facebook e Instagram"
             android:textColor="@color/black"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"/>

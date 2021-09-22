@@ -1,13 +1,13 @@
-package com.example.mobile_platform.ui.notifications
+package com.lunai.mobile_platform.ui.experts
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class ExpertsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+        value = "This is dashboard Fragment"
     }
     val text: LiveData<String> = _text
 }

@@ -1,4 +1,4 @@
-package com.example.mobile_platform
+package com.lunai.mobile_platform
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

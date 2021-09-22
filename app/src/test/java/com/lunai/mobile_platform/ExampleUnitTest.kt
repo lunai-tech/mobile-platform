@@ -1,4 +1,4 @@
-package com.example.mobile_platform
+package com.lunai.mobile_platform
 
 import org.junit.Test
 

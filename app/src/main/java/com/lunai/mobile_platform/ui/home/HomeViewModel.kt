@@ -1,4 +1,4 @@
-package com.example.mobile_platform.ui.home
+package com.lunai.mobile_platform.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -10,4 +10,5 @@ class HomeViewModel : ViewModel() {
         value = "This is home Fragment"
     }
     val text: LiveData<String> = _text
+
 }

@@ -4,4 +4,6 @@
     <string name="title_experts">Experts</string>
     <string name="title_trilha">Trilha</string>
     <string name="title_meu_negocio">Meu Negócio</string>
+    <string name="txt_expert_name">username</string>
+
 </resources>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.experts.ExpertsFragment"
+    android:orientation="vertical"
+    android:id="@+id/main">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tráfego"
+            android:textSize="42px"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="15dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23px"
+            android:text="São responsáveis por trazer pessoas para o seu negócio online através de anúncios que você vê\n
+    no Youtube, Google, Facebook e vários outros sites."
+            android:layout_marginStart="15dp">
+
+        </TextView>
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_trafego"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+                <RelativeLayout
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="César Rodrigues"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:translationZ="90dp"
+                        android:layout_centerHorizontal="true">
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/iv_profile"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/_593703294907"
+                        android:translationZ="90dp">
+
+                    </ImageView>
+
+                    <RatingBar
+                        android:id="@+id/rating"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
+
+                    <ImageButton
+                        android:id="@+id/txv_partner"
+                        android:layout_width="140dp"
+                        android:layout_height="170dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/home_box"
+                        android:elevation="5dp">
+
+                    </ImageButton>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gestores de Mídias Sociais"
+            android:textSize="42px"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23px"
+            android:text="Pessoas que podem impulsionar a página do seu negócio nas redes sociais!."
+            android:layout_marginStart="15dp"></TextView>
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_gestor_midia"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+                <RelativeLayout
+                    android:layout_width="160dp"
+                    android:layout_height="177dp">
+
+                    <ImageView
+                        android:id="@+id/iv_profile_2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/_8270556"
+                        android:translationZ="90dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Luanna Rossi"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_5"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
+
+                    <ImageButton
+                        android:id="@+id/txv_partner_5"
+                        android:layout_width="140dp"
+                        android:layout_height="170dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/home_box"
+                        android:elevation="5dp"></ImageButton>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fotógrafos"
+            android:textSize="42px"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23px"
+            android:text="Fotografias profissionais para você postar nas suas páginas. A primeira impressão é a que fica ;)"
+            android:layout_marginStart="15dp"></TextView>
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_gestor_Fotografia"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+                <RelativeLayout
+                    android:layout_width="160dp"
+                    android:layout_height="177dp">
+
+
+                    <ImageView
+                        android:id="@+id/iv_profile_3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/_593703294907"
+                        android:translationZ="90dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cesar Rodrigues"
+                        android:textSize="32px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="40dp"
+                        android:translationZ="90dp">
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rating_9"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="140dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:translationZ="90dp" />
+
+                    <ImageButton
+                        android:id="@+id/txv_partner_9"
+                        android:layout_width="140dp"
+                        android:layout_height="170dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/home_box"
+                        android:elevation="5dp"></ImageButton>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Designers"
+            android:textSize="42px"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23px"
+            android:text="LaLaLand"
+            android:layout_marginStart="15dp"></TextView>
+
+        <HorizontalScrollView
+                android:id="@+id/hsv_gestor_Designer"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_profile_4"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="50dp"
+                            android:src="@drawable/_1354681"
+                            android:translationZ="90dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Marcelo Martins"
+                            android:textSize="32px"
+                            android:textStyle="bold"
+                            android:layout_marginTop="100dp"
+                            android:layout_marginStart="40dp"
+                            android:translationZ="90dp">
+                        </TextView>
+
+                        <RatingBar
+                            android:id="@+id/rating_13"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="45dp"
+                            android:layout_marginTop="140dp"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:stepSize="0.1"
+                            android:translationZ="90dp" />
+
+                        <ImageButton
+                            android:id="@+id/txv_partner_13"
+                            android:layout_width="140dp"
+                            android:layout_height="170dp"
+                            android:layout_marginStart="15dp"
+                            android:background="@drawable/home_box"
+                            android:elevation="5dp"></ImageButton>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

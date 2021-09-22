@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitFactory {
 
-    private val URI: String = ""
+    private val URI: String = "https://https://lunaiapi.herokuapp.com/api/v1/experts"
 
     val retrofitFactory = Retrofit.Builder()
         .baseUrl(URI)
